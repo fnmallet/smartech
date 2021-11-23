@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Venta de discos rígios, SSD y discos externos al mejor precio.">
+        <meta name="keywords"
+        content="smartech, envio, disco rigido, disco ssd, disco, disco externo, almacenamiento, gb, tb, m2, hdd, ssd">
+        <title>SMARTECH - Almacenamiento</title>
+        <link rel="stylesheet" href="../../css/estilo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <div>
+                <a href="../../index.html">
+                    <img src="../../imagenes/logos/logo.png" alt="Logo de SMARTECH" class="header__logo">
+                </a>
+            </div>
+
+            <!-- Panel de navegación -->
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../../index.html">HOME</a>
+                    </li>
+                    <li>
+                        <p>TIENDA</p>
+                        <ul>
+                            <li>
+                                <a href="../categorias.html">CATEGORÍAS</a>
+                            </li>
+                            <li>
+                                <a href="./almacenamiento.html">ALMACENAMIENTO</a>
+                            </li>
+                            <li>
+                                <a href="">MEMORIAS</a>
+                            </li>
+                            <li>
+                                <a href="">MONITORES</a>
+                            </li>
+                            <li>
+                                <a href="">MOTHERBOARDS</a>
+                            </li>
+                            <li>
+                                <a href="">NOTEBOOKS</a>
+                            </li>
+                            <li>
+                                <a href="">PC ARMADAS</a>
+                            </li>
+                            <li>
+                                <a href="">PERIFÉRICOS</a>
+                            </li>
+                            <li>
+                                <a href="">PLACAS DE VIDEO</a>
+                            </li>
+                            <li>
+                                <a href="">PROCESADORES</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="../arma_tu_pc.html">ARMÁ TU PC</a>
+                    </li>
+                    <li>
+                        <a href="../servicios.html">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="../contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="contenedor contenedor--justifySpaceEvenly contenedor--alignItemsCenter header__formulario" action="#" method="post">
+                <input class="header__buscador" type="search" name="busqueda" placeholder="Buscá tu producto">
+                <input class="header__boton" type="image" src="../../imagenes/iconos/busqueda.svg">
+                <input class="header__boton" type="image" src="../../imagenes/iconos/carrito.svg">
+            </form>
+        </header>
+
+        <main class="contenedor mainCategoria">
+            <!-- Filtros para la búsqueda de productos dentro de la categoría actual. No tendrá ninguna función en este curso. -->
+            <aside class="filtros padding">
+                <form class="contenedor contenedor--directionColumn" action="" method="post">
+                    <h2 class="">ORDENAR</h2>
+                    <div class="contenedor contenedor--justifyContentCenter filtros__precio">
+                        <input class="boton boton--chico" type="button" name="mayor" value="Mayor precio">
+                        <input class="boton boton--chico" type="button" name="menor" value="Menor precio">
+                    </div>
+                    <h2 class="">CAPACIDAD</h2>
+                    <div class="filtros__capacidad contenedor paddingInferior">
+                        <div class=" ">
+                            <input type="radio"  name="capacidad" id="capacidad-1" value="1">
+                            <label for="capacidad-1">512 GB</label>
+                        </div>
+                        <div class=" ">
+                            <input type="radio"  name="capacidad" id="capacidad-2" value="2">
+                            <label for="capacidad-2">1 TB</label>
+                        </div>
+                        <div class="">
+                            <input type="radio"  name="capacidad" id="capacidad-3" value="3">
+                            <label for="capacidad-3">2 TB</label>
+                        </div>
+                        <div class="">
+                            <input type="radio"  name="capacidad" id="capacidad-4" value="4">
+                            <label for="capacidad-4">4 TB</label>
+                        </div>
+                        <div class="">
+                            <input type="radio"  name="capacidad" id="capacidad-5" value="4">
+                            <label for="capacidad-5">8 TB</label>
+                        </div>
+                    </div>
+                </form>
+            </aside>
+
+            <!-- Lista de productos de esta categoría -->
+
+            <section class="animate__animated  animate__fadeIn contenedor contenedor--directionColumn padding">
+                <h1>ALMACENAMIENTO</h1>
+                <div class="contenedor listaProductos padding paddingSuperior">
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/hdd-wd-1tb.jpeg" alt="Foto de disco rígido">
+                            <p class="producto__texto">DISCO RÍGIDO 1TB WD BLUE</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$5000</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/hdd-seagate-1tb.jpeg" alt="Foto de disco rígido">
+                            <p class="producto__texto">DISCO RÍGIDO 1TB SEAGATE BARRACUDA</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$4900</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/ssd-wd-1tb.jpeg" alt="Foto de disco SSD">
+                            <p class="producto__texto">DISCO SSD 1TB WD GREEN</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$12000</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/hdd-wd-8tb-vigilancia.jpeg" alt="Foto de disco rígido">
+                            <p class="producto__texto">DISCO RÍGIDO 8TB WD PURPLE</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$26000</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/hdd-seagate-8tb-ironwolf.jpeg" alt="Foto de disco rígido">
+                            <p class="producto__texto">DISCO RÍGIDO 8TB SEAGATE IRONWOLF</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$35000</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/hdd-externo-toshiba-1tb.jpeg" alt="Foto de disco rígido externo">
+                            <p class="producto__texto">DISCO RÍGIDO EXTERNO 1TB TOSHIBA</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$4600</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/hdd-externo-wd-4tb.jpeg" alt="Foto de disco rígido externo">
+                            <p class="producto__texto">DISCO RÍGIDO EXTERNO 4TB WD</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$27000</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/ssd-m2-adata-1tb.jpeg" alt="Foto de disco SSD M2">
+                            <p class="producto__texto">DISCO SSD M2 1TB ADATA</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$14000</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                    <article class="contenedor contenedor--alignItemsCenter contenedor--directionColumn producto">
+                        <a href="#">
+                            <img src="../../imagenes/productos/ssd-m2-wd-1tb.jpeg" alt="Foto de disco SSD">
+                            <p class="producto__texto">DISCO SSD M2 1TB WD BLACK</p>
+                        </a>
+                        <div class="contenedor contenedor--directionColumn contenedor--justifyContentFlexEnd contenedor--alignItemsCenter contenedor--grow">
+                            <p class="producto__texto--precio">$18000</p>
+                            <a class="boton" href="#"><p>COMPRAR</p></a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer padding">
+            <nav class="contenedor contenedor--justifySpaceAround">
+                <div>
+                    <h3>SITIO</h3>
+                    <ul>
+                        <li>
+                            <a href="../../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="../categorias.html">Categorías</a>
+                        </li>
+                        <li>
+                            <a href="../arma_tu_pc.html">Armá tu PC</a>
+                        </li>
+                        <li>
+                            <a href="../servicios.html">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="../contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>CATEGORÍAS</h3>       
+                    <ul>
+                        <li>
+                            <a href="./almacenamiento.html">Almacenamiento</a>
+                        </li>
+                        <li>
+                            <a href="">Placas de video</a>
+                        </li>
+                        <li>
+                            <a href="">Memorias</a>
+                        </li>
+                        <li>
+                            <a href="">Periféricos</a>
+                        </li>
+                        <li>
+                            <a href="">Monitores</a>
+                        </li>
+                        <li>
+                            <a href="">PC Armadas</a>
+                        </li>
+                        <li>
+                            <a href="">Notebooks</a>
+                        </li>
+                        <li>
+                            <a href="">Procesadores</a>
+                        </li>
+                        <li>
+                            <a href="">Motherboards</a>
+                        </li>
+                    </ul>
+                </div>
+                <div">
+                    <h3>CONTACTO</h3>
+                    <ul>
+                        <li>Email: ventas@smartech.com</li>
+                        <li>Teléfono: 4444-4444</li>
+                        <li>Whatsapp: +54 11 9999 9999</li>
+                        <li>Dirección: Av. Rivadavia 10350, Capital Federal</li>
+                    </ul>
+                    <div class="footer__redes  paddingSuperior contenedor contenedor--justifyContentCenter">
+                        <a href="https://www.facebook.com"><img src="../../imagenes/logos/logo_facebook.svg" alt="Logo de Facebook"></a>
+                        <a href="https://www.instagram.com"><img src="../../imagenes/logos/logo_instagram.svg" alt="Logo de Instagram"></a>
+                        <a href="https://www.twitter.com"><img src="../../imagenes/logos/logo_twitter.svg" alt="Logo de Twitter"></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="footer__derechos"><p>SMARTECH 2021 © Todos los derechos reservados</p></div>
+        </footer>
+        <a class="body__whatsapp" href="https://www.whatsapp.com"><img src="../../imagenes/whatsapp.jpg" alt="Chat de Wathsapp"></a>
+    </body>
+</html>

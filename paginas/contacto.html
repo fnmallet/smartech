@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Contactanos para que te podamos ayudar con lo que necesites.">
+        <meta name="keywords"
+        content="smartech, computadora, computacion, contacto, informacion, soporte, ayuda">
+        <title>SMARTECH - Contacto</title>
+        <link rel="stylesheet" href="../css/estilo.css">
+    </head>
+    <body>
+        <header class="header">
+            <div>
+                <a href="../index.html">
+                    <img src="../imagenes/logos/logo.png" alt="Logo de SMARTECH" class="header__logo">
+                </a>
+            </div>
+
+            <!-- Panel de navegación -->
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">HOME</a>
+                    </li>
+                    <li>
+                        <p>TIENDA</p>
+                        <ul>
+                            <li>
+                                <a href="./categorias.html">CATEGORÍAS</a>
+                            </li>
+                            <li>
+                                <a href="./categorias/almacenamiento.html">ALMACENAMIENTO</a>
+                            </li>
+                            <li>
+                                <a href="">MEMORIAS</a>
+                            </li>
+                            <li>
+                                <a href="">MONITORES</a>
+                            </li>
+                            <li>
+                                <a href="">MOTHERBOARDS</a>
+                            </li>
+                            <li>
+                                <a href="">NOTEBOOKS</a>
+                            </li>
+                            <li>
+                                <a href="">PC ARMADAS</a>
+                            </li>
+                            <li>
+                                <a href="">PERIFÉRICOS</a>
+                            </li>
+                            <li>
+                                <a href="">PLACAS DE VIDEO</a>
+                            </li>
+                            <li>
+                                <a href="">PROCESADORES</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./arma_tu_pc.html">ARMÁ TU PC</a>
+                    </li>
+                    <li>
+                        <a href="./servicios.html">SERVICIOS</a>
+                    </li>
+                    <li>
+                        <a href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="contenedor contenedor--justifySpaceEvenly contenedor--alignItemsCenter header__formulario" action="#" method="post">
+                <input class="header__buscador" type="search" name="busqueda" placeholder="Buscá tu producto">
+                <input class="header__boton" type="image" src="../imagenes/iconos/busqueda.svg">
+                <input class="header__boton" type="image" src="../imagenes/iconos/carrito.svg">
+            </form>
+        </header>
+
+        <main>
+            <!-- Formulario de contacto -->
+            <section>
+                <h1>CONTACTO</h1>
+                <div class="contacto contenedor paddingSuperior padding contacto">
+                    <img class="contacto__imagen" src="../imagenes/contacto.jpg" alt="Foto de mujer usando un teléfono frente a una notebook">
+                    <form class="contacto__formulario grow" action="" method="post">
+                        <div class="contacto__email contenedor contenedor--directionColumn">
+                            <label for="email">Dirección de correo electrónico</label>
+                            <input id="email" class="h30 estilo" type="email" name="email" placeholder="ejemplo@smartech.com">
+                        </div>
+                        <div class="contacto__motivo contenedor contenedor--directionColumn">
+                            <label for="motivo">Motivo</label>
+                            <select class="contacto__campo h30 estilo" id="motivo" name="motivo">
+                                <option value="consulta">Consulta</option>
+                                <option value="trabajo">Solicitud de trabajo</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+
+
+                        <div class="contacto__suscripcion">
+                            <input type="checkbox" id="suscripcion-id" name="suscripcion" value="suscripcion">
+                            <label for="suscripcion-id">¿Desea suscribirse para recibir noticias sobre ofertas y las últimas novedades?</label>
+                        </div>
+
+
+                        <textarea class="contacto__mensaje estilo" name="texto" id="" placeholder="Escriba su mensaje"></textarea>
+                        <div class="contacto__botones contenedor contenedor--justifyContentFlexEnd">
+                            <input class="boton boton" type="reset" value="Limpiar">
+                            <input class="boton boton" type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <h2 class="paddingInferior paddingSuperior">UBICACIÓN</h2>
+                
+                <div>
+                    <iframe class="padding" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.9230828519953!2d-58.50984441807821!3d-34.63952485336013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc84b5922f57f%3A0x8159e6e373ed2452!2sAv.%20Rivadavia%2010350%2C%20C1408AAQ%20CABA!5e0!3m2!1ses-419!2sar!4v1634317055660!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <p>Dirección: Av. Rivadavia 10350, Capital Federal</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer padding">
+            <nav class="contenedor contenedor--justifySpaceAround">
+                <div>
+                    <h3>SITIO</h3>
+                    <ul>
+                        <li>
+                            <a href="../index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./categorias.html">Categorías</a>
+                        </li>
+                        <li>
+                            <a href="./arma_tu_pc.html">Armá tu PC</a>
+                        </li>
+                        <li>
+                            <a href="./servicios.html">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>CATEGORÍAS</h3>       
+                    <ul>
+                        <li>
+                            <a href="../categorias/almacenamiento.html">Almacenamiento</a>
+                        </li>
+                        <li>
+                            <a href="">Placas de video</a>
+                        </li>
+                        <li>
+                            <a href="">Memorias</a>
+                        </li>
+                        <li>
+                            <a href="">Periféricos</a>
+                        </li>
+                        <li>
+                            <a href="">Monitores</a>
+                        </li>
+                        <li>
+                            <a href="">PC Armadas</a>
+                        </li>
+                        <li>
+                            <a href="">Notebooks</a>
+                        </li>
+                        <li>
+                            <a href="">Procesadores</a>
+                        </li>
+                        <li>
+                            <a href="">Motherboards</a>
+                        </li>
+                    </ul>
+                </div>
+                <div">
+                    <h3>CONTACTO</h3>
+                    <ul>
+                        <li>Email: ventas@smartech.com</li>
+                        <li>Teléfono: 4444-4444</li>
+                        <li>Whatsapp: +54 11 9999 9999</li>
+                        <li>Dirección: Av. Rivadavia 10350, Capital Federal</li>
+                    </ul>
+                    <div class="footer__redes  paddingSuperior contenedor contenedor--justifyContentCenter">
+                        <a href="https://www.facebook.com"><img src="../imagenes/logos/logo_facebook.svg" alt="Logo de Facebook"></a>
+                        <a href="https://www.instagram.com"><img src="../imagenes/logos/logo_instagram.svg" alt="Logo de Instagram"></a>
+                        <a href="https://www.twitter.com"><img src="../imagenes/logos/logo_twitter.svg" alt="Logo de Twitter"></a>
+                    </div>
+                </div>
+            </nav>
+            <div class="footer__derechos"><p>SMARTECH 2021 © Todos los derechos reservados</p></div>
+        </footer>
+        <a class="body__whatsapp" href="https://www.whatsapp.com"><img src="../imagenes/whatsapp.jpg" alt="Chat de Wathsapp"></a>
+    </body>
+</html>

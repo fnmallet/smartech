@@ -1,0 +1,1 @@
+sitemap: https://smartech.com.ar/sitemap.xml
