@@ -64,7 +64,7 @@
     display: block;
     text-align: left;
     padding-bottom: 4px; }
-  .footer img {
+  .footer .footer_redes img {
     width: 24px; }
 
 .footer__redes {
@@ -457,7 +457,7 @@ main {
     width: 45%; }
   .header__formulario {
     width: 420px; }
-  footer img {
+  .footer__redes img {
     width: 36px; }
   .footer__sitio {
     display: block; }
