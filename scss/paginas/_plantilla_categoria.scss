@@ -1,0 +1,26 @@
+.filtros {
+    display: inline;
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.filtros__precio {
+    gap: 4px;
+}
+
+.filtros__capacidad {
+    gap: 8px;
+    justify-content: center;
+}
+
+.listaProductos {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 40px;
+}
+
+.mainCategoria {
+    flex-direction: column;
+}

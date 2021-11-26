@@ -1,0 +1,45 @@
+.servicios {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.servicio {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "imagen"
+    "titulo"
+    "texto"
+    "boton";
+    column-gap: 50px;
+    text-align: center;
+    row-gap: 30px;
+    max-width: 400px;
+
+    img {
+        grid-area: imagen;
+        width: 128px;
+        margin: auto;
+    }
+
+    h2 {
+        grid-area: titulo;
+        font-size: 2rem;
+    }
+
+    p {
+        grid-area: texto;
+    }
+
+    a {
+        grid-area: boton;
+        align-self: center;
+        text-align: center;
+    }
+
+    .boton {
+        max-width: 100px;
+        margin: auto;
+    }
+}

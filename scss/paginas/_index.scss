@@ -1,0 +1,32 @@
+@import "variables";
+
+.index {
+    padding-top: 0;
+}
+
+.contenedor__informacion {
+    text-align: center;
+    width: 50%;
+
+    img {
+        width: 72px;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+    }
+}
+
+.contenedor__informacion--ayuda {
+    display: none;
+}
+
+.productosDestacados {
+    flex-wrap: wrap;
+    column-gap: (20%) / 3;
+    row-gap: 40px;
+}

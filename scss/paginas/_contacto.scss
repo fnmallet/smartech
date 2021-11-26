@@ -1,0 +1,60 @@
+@import "variables";
+
+.contacto {
+    gap: 20px;
+}
+
+.contacto__imagen {
+    width: 35%;
+    display: none;
+}
+
+.contacto__formulario {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "email motivo"
+    "suscripcion suscripcion"
+    "mensaje mensaje"
+    "boton boton";
+    column-gap: $gap;
+    row-gap: $gap;
+}
+
+.contacto__email {
+    grid-area: email;
+}
+
+.contacto__motivo {
+    grid-area: motivo;
+}
+
+.contacto__suscripcion {
+    grid-area: suscripcion;
+}
+
+.contacto__mensaje {
+    grid-area: mensaje;
+    resize: none;
+    height: 250px;
+}
+
+.contacto__botones {
+    grid-area: boton;
+    gap: 4px;
+    
+    .boton {
+        width: 50%;
+    }
+}
+
+.h30 {
+    height: 30px;
+}
+
+.estilo {
+    border: 1px solid $clr-primario;
+    border-radius: $border-radius;
+    background-color: white;
+}
