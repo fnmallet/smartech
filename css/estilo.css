@@ -407,15 +407,12 @@ main {
   font-weight: bold;
   border: 6px solid #0466C8;
   border-radius: 5px;
-  padding: 2px; }
-
-.boton--chico {
-  padding: 1px;
-  font-size: 0.8rem; }
-
-.boton:hover {
-  background-color: #0573e1;
-  border-color: #0573e1; }
+  padding: 2px .boton --chico;
+    padding-padding: 1px;
+    padding-font-size: 0.8rem; }
+  .boton:hover {
+    background-color: #0573e1;
+    border-color: #0573e1; }
 
 /* PADDING */
 .padding {

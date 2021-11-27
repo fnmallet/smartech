@@ -149,16 +149,16 @@ main {
     border: 6px solid $clr-primario;
     border-radius: $border-radius;
     padding: 2px
-}
 
-.boton--chico {
-    padding: 1px;
-    font-size: 0.8rem;
-}
-
-.boton:hover {
-    background-color: lighten($clr-primario, 5);
-    border-color: lighten($clr-primario, 5);
+    &--chico {
+        padding: 1px;
+        font-size: 0.8rem;
+    }
+    
+    &:hover {
+        background-color: lighten($clr-primario, 5);
+        border-color: lighten($clr-primario, 5);
+    }
 }
 
 /* PADDING */
