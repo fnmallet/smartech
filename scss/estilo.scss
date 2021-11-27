@@ -63,39 +63,39 @@ main {
 .contenedor {
     width: 100%;
     display: flex;
-}
 
-.contenedor--justifySpaceEvenly {
-    justify-content: space-evenly;
-}
-
-.contenedor--justifySpaceAround {
-    justify-content: space-around;
-}
-
-.contenedor--justifySpaceBetween {
-    justify-content: space-between;
-}
-
-.contenedor--justifyStretch {
-    justify-content: stretch;
-}
-
-.contenedor--alignItemsCenter {
-    align-items: center;
-}
-
-.contenedor--directionColumn {
-    flex-direction: column;
-    gap: $gap;
-}
-
-.contenedor--justifyContentFlexEnd {
-    justify-content: flex-end;
-}
-
-.contenedor--justifyContentCenter {
-    justify-content: center;
+    &--justifySpaceEvenly {
+        justify-content: space-evenly;
+    }
+    
+    &--justifySpaceAround {
+        justify-content: space-around;
+    }
+    
+    &--justifySpaceBetween {
+        justify-content: space-between;
+    }
+    
+    &--justifyStretch {
+        justify-content: stretch;
+    }
+    
+    &--alignItemsCenter {
+        align-items: center;
+    }
+    
+    &--directionColumn {
+        flex-direction: column;
+        gap: $gap;
+    }
+    
+    &--justifyContentFlexEnd {
+        justify-content: flex-end;
+    }
+    
+    &--justifyContentCenter {
+        justify-content: center;
+    }
 }
 
 // Clases de flex para los hijos de los contenedores

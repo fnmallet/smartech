@@ -349,31 +349,23 @@ main {
 .contenedor {
   width: 100%;
   display: flex; }
-
-.contenedor--justifySpaceEvenly {
-  justify-content: space-evenly; }
-
-.contenedor--justifySpaceAround {
-  justify-content: space-around; }
-
-.contenedor--justifySpaceBetween {
-  justify-content: space-between; }
-
-.contenedor--justifyStretch {
-  justify-content: stretch; }
-
-.contenedor--alignItemsCenter {
-  align-items: center; }
-
-.contenedor--directionColumn {
-  flex-direction: column;
-  gap: 12px; }
-
-.contenedor--justifyContentFlexEnd {
-  justify-content: flex-end; }
-
-.contenedor--justifyContentCenter {
-  justify-content: center; }
+  .contenedor--justifySpaceEvenly {
+    justify-content: space-evenly; }
+  .contenedor--justifySpaceAround {
+    justify-content: space-around; }
+  .contenedor--justifySpaceBetween {
+    justify-content: space-between; }
+  .contenedor--justifyStretch {
+    justify-content: stretch; }
+  .contenedor--alignItemsCenter {
+    align-items: center; }
+  .contenedor--directionColumn {
+    flex-direction: column;
+    gap: 12px; }
+  .contenedor--justifyContentFlexEnd {
+    justify-content: flex-end; }
+  .contenedor--justifyContentCenter {
+    justify-content: center; }
 
 .grow {
   flex-grow: 1; }
