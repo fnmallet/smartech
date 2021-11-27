@@ -16,22 +16,22 @@
         text-align: left;
         padding-bottom: 4px;
     }
-}
 
-.footer__redes {
-    gap: 32px;
-
-    img {
-        width: 24px;
+    &__redes {
+        gap: 32px;
+    
+        img {
+            width: 24px;
+        }
     }
-}
-
-.footer__derechos {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
-.footer__sitio {
-    display: none;
+    
+    &__derechos {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    
+    &__sitio {
+        display: none;
+    }
 }

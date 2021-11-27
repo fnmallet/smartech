@@ -64,19 +64,16 @@
     display: block;
     text-align: left;
     padding-bottom: 4px; }
-
-.footer__redes {
-  gap: 32px; }
-  .footer__redes img {
-    width: 24px; }
-
-.footer__derechos {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  text-align: center; }
-
-.footer__sitio {
-  display: none; }
+  .footer__redes {
+    gap: 32px; }
+    .footer__redes img {
+      width: 24px; }
+  .footer__derechos {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center; }
+  .footer__sitio {
+    display: none; }
 
 .index {
   padding-top: 0; }
