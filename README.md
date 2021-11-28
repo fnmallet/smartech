@@ -1,6 +1,6 @@
 # SMARTECH
 
-## Ecommerce de computación
+** Ecommerce de computación **
 
 Este sitio es de un emprendimiento ficticio creado para la realización del curso. Consiste en una tienda de productos de computación y además ofrece algunos servicios relacionados con el mantenimiento y reparación de computadoras.
 
